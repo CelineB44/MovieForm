@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #113a8b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.FormMovie {
+  width: 400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.FormMovie h1 {
+  text-align: center;
+}
+
+.FormMovie .form-data {
+  display: flex;
+  justify-content: center;
+  margin: 5px 0;
+}
+
+.FormMovie .form-data label {
+  display: inline-block;
+  width: 75px;
+  margin-right: 10px;
+  text-align: right;
+}
+
+.FormMovie .form-data input:not([type="submit"]) {
+  flex-grow: 1;
+  background-color: white;
+  color: black;
+  border: 2px solid purple; 
+}
+
+.button {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50; 
+}
